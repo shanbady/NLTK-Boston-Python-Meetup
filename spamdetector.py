@@ -15,7 +15,6 @@ def email_features(sent):
 	for word in wordtokens:
 		if word not in commonwords:
 			features[word] =  True
-			logging.info(word)
 	return features
 
 
